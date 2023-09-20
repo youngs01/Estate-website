@@ -1,0 +1,537 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      overflow-x: hidden;
+      font-family: 'Jost', sans-serif;
+
+  }
+
+  .pt-100 {
+      padding-top: 100px;
+  }
+
+  .pb-100 {
+      padding-bottom: 100px;
+  }
+
+
+  .mt-100 {
+      margin-top: 100px;
+  }
+
+  .tb-100 {
+      margin-bottom: 100px;
+  }
+
+
+  .fixed {
+      position: fixed;
+  }
+
+
+  img {
+      width: 100%;
+  }
+
+  .nav {
+      background: #004274;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+      position: sticky;
+
+  }
+
+  .logo {
+      width: 50px;
+  }
+
+  .anav {
+      border: 2px solid #004274;
+      font-size: 18px;
+      color: white;
+
+  }
+
+  .anav:hover {
+      color: #00AEFF;
+      border-bottom: 2px solid #00AEFF;
+
+  }
+
+  .navbar-collapse {
+
+      justify-content: space-between;
+      padding-left: 50px;
+  }
+
+  .navbar-nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+
+
+  .btn-callus {
+      border: 2px solid #00AEFF;
+      background: #00AEFF;
+      color: white;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 30px;
+      font-weight: 500;
+    transition: all 1s;
+    }
+
+  .btn-callus:hover {
+      color: white;
+      border: 2px solid #00AEFF;
+  }
+
+  .container-back1 {
+      background-image: url(h1_hero1.jpg.webp);
+      width: 100%;
+      overflow-x: hidden;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+
+  }
+
+  .darkpara {
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+
+  }
+
+  .cont1 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      align-items: normal;
+      text-align: start;
+
+      position: relative;
+  }
+
+  .blanket {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.3;
+
+  }
+
+  .h1 {
+      font-size: 60px;
+  }
+
+  .booknow {
+      margin-top: 30px;
+      background-color: #00AEFF;
+      border: 2px solid #00AEFF;
+      color: white;
+      padding: 12px 50px;
+      width: max-content;
+      font-size: 18px;
+
+  }
+
+  .container-back2 {
+      background-color: #FFFEFE;
+      width: 100%;
+      max-height: max-content;
+
+  }
+
+
+  html,
+  body {
+      position: relative;
+
+  }
+
+  body {
+      background: #eee;
+
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+  }
+
+  .swiper {
+      width: 100%;
+
+  }
+
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .swiper-slide img {
+      display: block;
+      width: 100%;
+
+      object-fit: cover;
+  }
+
+  .swiper-body {
+      width: 100%;
+
+  }
+
+  .cyan {
+      color: #00AEFF;
+  }
+
+  .navy {
+      background-color: #004274;
+  }
+
+
+  .swiper-slide .swiper-slider-body {
+      text-align: start;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      padding: 10px;
+  }
+
+
+  .container-back3 {
+      background-image: url(section-bg1.jpg.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 100px;
+      background-position: center;
+
+  }
+
+  .container-back4 {
+      background-color: #FFFEFE;
+      width: 100%;
+
+
+  }
+
+  .container-back4 h1 {
+      text-align: center;
+      color: #192938;
+  }
+
+  .container-back4 .container {
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+
+  .text-gray {
+      color: gray;
+
+  }
+
+  .fs-18 {
+      font-size: 15px;
+      font-family: 'Jost', sans-serif;
+  }
+
+  .btn-navy {
+      background-color: #00AEFF;
+      padding: 12px 30px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      outline: none;
+      border: 0;
+      transition:all 0.5s ease;
+  }
+
+  .btn-navy:hover {
+      background-color: #004274;
+    
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+      font-family: 'Jost', sans-serif;
+  }
+
+  .min-card1 {
+      background-color: white;
+      transition: all 0.3s ease;
+
+  }
+
+  .min-card1:hover {
+      color: #00AEFF;
+      background-color: #F3F5F8;
+      -webkit-box-shadow: 0 15px 25px rgba(35, 47, 85, 0.1);
+  }
+
+  .container-back5 {
+      background-color: #F3F5F8;
+  }
+
+  .container-back6 {
+      background-color: white;
+  }
+
+  .container-back6 p {
+      color: #656565;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5;
+
+  }
+
+
+  .img-card-body {
+      text-align: center;
+      color: #004274;
+  }
+
+  .img-card-overlay {
+
+      width: 100%;
+      transition: all 1s ease;
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      left: 0;
+
+  }
+
+  .radiusbtn {
+
+      background-color: #004274;
+      color: white;
+      border-radius: 100px;
+      margin-top: 80%;
+
+  }
+
+
+  .img-card-overlay:hover {
+
+
+      opacity: 1;
+  }
+
+  .swiper-slide {
+      border: 1px solid gray;
+      /* Other styles for your slides */
+  }
+
+  .container-back7 {
+      background-color: #014374;
+      width: 100%;
+      height: max-content;
+
+  }
+
+  .section1 {
+
+
+      width: 100%;
+      height: max-content;
+      padding-top: 100px;
+      padding-bottom: 50px;
+
+  }
+
+  .section1 h6 {
+      font-size: 18px;
+      font-weight: 500;
+
+  }
+
+  .section1 input {
+      margin-top: 40px;
+      width: 100%;
+      padding: 10px;
+      color: white;
+      font-size: 18px;
+      border: 0;
+      outline: none;
+      background-color: transparent;
+      border-bottom: 2px solid white;
+  }
+
+  .pl-100 {
+      padding-left: 320px;
+  }
+
+  .btn-sub {
+      border: 2px solid #00AEFF;
+      background-color: #00AEFF;
+      padding: 7px 35px;
+      border-radius: 5px;
+      transition: 0.8s;
+      font-size: 17px;
+  }
+
+  .btn-sub:hover {
+      border: 2px solid #00AEFF;
+      background-color: transparent;
+
+  }
+
+  .custom-input::placeholder {
+      color: white;
+  }
+
+  .section2 {
+      height: 100%;
+      width: 100%;
+  }
+
+  .section2 img {
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+  }
+
+  .child-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .p1 {
+      color: gray;
+      font-weight: 300;
+      font-size: 17px;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .footer-linktag {
+      font-weight: 300;
+      color: gray;
+      font-size: 17px;
+
+  }
+
+  .footer-linktag:hover {
+      color: #004274;
+  }
+
+  .container-back8 {
+      background-color: white;
+  }
+
+
+
+
+  footer {
+      background-color: #F3F7F9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .footer-text {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      color: black;
+      opacity: 0.8;
+      font-size: 15px;
+  }
+
+  .footer-logo {
+      width: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:1600px) {
+
+      .section1 {
+          padding-left: 30px;
+      }
+
+  }
+
+  @media screen and (max-width:990px) {
+
+      .navbar-toggler {
+          background-color: white;
+      }
+
+      .navbar-collapse {
+          padding-top: 20px;
+          flex-direction: column;
+          gap: 20px;
+          text-align: start;
+
+      }
+
+      .bnt-group {
+          flex-direction: column;
+          gap: 20px;
+
+      }
+
+      .rooww {
+          text-align: center;
+      }
+
+      .contact-logo {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+
+      }
+
+  }
